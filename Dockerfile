@@ -12,6 +12,6 @@ LABEL "maintainer"="Frédéric Harper <hi@fred.dev>"
 RUN apk add --no-cache ca-certificates=~20230506-r0
 
 COPY *.sh /
-
+RUN chmod +x entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
 CMD ["--help"]
