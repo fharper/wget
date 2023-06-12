@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: wget
-      uses: wei/wget@v1
+      uses: fharper/wget@v1
       with:
         args: -O sample.html https://httpbin.org/html
 ```
@@ -30,7 +30,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: wget
-      uses: wei/wget@v1
+      uses: fharper/wget@v1
       with:
         args: -qO- https://httpbin.org/get
 ```
