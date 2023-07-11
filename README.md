@@ -2,6 +2,8 @@
 
 Wraps the wget CLI to be used in GitHub Actions. Note that it's a Docker container action, which means it works only on Linux-based OS.
 
+I do not plan to maintain it, but you can still use it even if it's archived. You can also fork it.
+
 ## Features
 
 - make http requests
