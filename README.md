@@ -1,6 +1,6 @@
 # GitHub Action for wget
 
-Wraps the wget CLI to be used in GitHub Actions.
+Wraps the wget CLI to be used in GitHub Actions. Note that it's a Docker container action, which means it works only on Linux-based OS.
 
 ## Features
 
